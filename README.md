@@ -43,8 +43,9 @@ Email Address []:
 
 It will prompt for some details, simply hit enter all the way till the end. It will generate the following files:
 
-    `backend.crt` — Certificate for your server.
-    `backend.key` — Private key for your server.
+`backend.crt` — Certificate for your server.
+
+`backend.key` — Private key for your server.
 
 In fact, you can now use this self-signed certificate to run your server as https. You should not use self-signed certificate for production server.
 
@@ -56,8 +57,9 @@ For mutual TLS authentication, you will need a certificate and private key for c
 
 Likewise, you should get the following certificates and private key
 
-    `client.crt`
-    `client.key`
+`client.crt` — Certificate for your frontend.
+
+`client.key` — Private key for your frontend.
 
 The next step is to combine both of them together as PKCS12 file so that you can import them into the client’s browser for mutual TLS authentication. It will prompt you for password. Simply click enter to create a PKCS12 file without a password.
 
