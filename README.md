@@ -79,7 +79,7 @@ Visite the page https://localhost or execute:
 
 Successful response with correct website should be returned.
 
-## Referencs
+## References
 https://levelup.gitconnected.com/certificate-based-mutual-tls-authentication-with-nginx-57c7e693
 
 https://mailman.nginx.org/pipermail/nginx/2020-June/059526.html
