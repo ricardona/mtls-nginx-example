@@ -11,7 +11,12 @@ This example is to introduce you to the world of mutual authentication. This tut
 
 ## Create Server Certificate and Key
 
-Change the working directory to the following to `certs`.
+Clone this repository and open a terminal in the new subdirectory. Change the working directory to the following to `certs`.
+
+```
+mkdir certs
+cd certs
+```
 
 Run the following command to generate the a server certificate and its corresponding private key. We are are going to use X.509 Certificate Data Management which is the standard format for public key certificates which contain the cryptographic key pairs with identities and information related to websites or organizations.
 
