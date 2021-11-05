@@ -81,6 +81,9 @@ Successful response with correct website should be returned.
 
 ## Referencs
 https://levelup.gitconnected.com/certificate-based-mutual-tls-authentication-with-nginx-57c7e693
+
 https://mailman.nginx.org/pipermail/nginx/2020-June/059526.html
+
 https://medium.com/geekculture/mtls-with-nginx-and-nodejs-e3d0980ed950
+
 https://smallstep.com/hello-mtls/doc/client/nginx-proxy
