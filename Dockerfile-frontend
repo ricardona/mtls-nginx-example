@@ -1,0 +1,3 @@
+FROM nginx:stable-alpine
+COPY certs/ /opt/imedical/certs
+COPY reverse-proxy-frontend.conf /etc/nginx/conf.d/reverse-proxy.conf
